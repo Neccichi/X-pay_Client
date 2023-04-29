@@ -180,7 +180,7 @@
 
     <TextView
         android:id="@+id/textView33"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
 
@@ -195,7 +195,7 @@
 
     <TextView
         android:id="@+id/textView41"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
 
@@ -210,7 +210,7 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
 
@@ -225,7 +225,7 @@
 
     <TextView
         android:id="@+id/textView40"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
 
@@ -255,7 +255,7 @@
 
     <TextView
         android:id="@+id/textView38"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
 
@@ -330,6 +330,21 @@
 
     <TextView
         android:id="@+id/textView44"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView60"
         android:layout_width="100dp"
         android:layout_height="46dp"
 
@@ -341,6 +356,126 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="70dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="70dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="70dp"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_rounded"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <TextView
@@ -740,55 +875,181 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView48"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rounded_white_and_back"
-        android:gravity="center"
-        android:text="7"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="1048dp"
-        tools:layout_editor_absoluteY="484dp" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rounded_white_and_back"
-        android:gravity="center"
-        android:text="7"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="976dp"
-        tools:layout_editor_absoluteY="484dp" />
-
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/rounded_white_and_back"
-        android:gravity="center"
-        android:text="7"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="900dp"
-        tools:layout_editor_absoluteY="556dp" />
-
-    <TextView
         android:id="@+id/textView51"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/rounded_white_and_back"
         android:gravity="center"
         android:text="7"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="900dp"
-        tools:layout_editor_absoluteY="484dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView43"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="8"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="9"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView53"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="6"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView47"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_white_and_back"
+        android:gravity="center"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
